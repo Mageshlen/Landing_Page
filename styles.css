@@ -5,23 +5,21 @@
   margin: 0px;
   box-sizing: border-box;
 }
-
-body {
+/*Header layout*/
+header {
+  background-color: #1f2937;
   font-family: "Roboto", sans-serif;
   color: #f9faf8;
 }
-
-header {
-  background-color: #1f2937;
-}
 .headertop {
+  padding: 10px 220px 90px;
   display: flex;
   justify-content: space-between;
-  padding: 10px 220px 90px;
 }
 
 .logo {
   font-size: 24px;
+  font-weight: 700;
 }
 ul {
   list-style-type: none;
@@ -63,11 +61,34 @@ a:hover {
   border: none;
   background-color: #3882f6;
   color: #f9faf8;
-  margin-top: 5px;
+  margin-top: 7px;
   font-weight: 600;
 }
 
 .hbrimg {
   height: 217px;
   width: 560px;
+}
+/*SectionTwo cardswith text starts here*/
+.sectiontwo {
+}
+
+.sectitle {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.cards {
+}
+
+.cards :nth-child(2) {
+  color: #1f2937;
+  font-size: 18px;
+}
+
+.sectwoimg {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
 }
