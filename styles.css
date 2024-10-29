@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #1f2937;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+a:hover {
+  cursor: pointer;
+}
+
+.htlinks {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.maintitle {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.hbrimg {
+  height: 150px;
+  width: 250px;
+}
