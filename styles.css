@@ -8,18 +8,26 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #f9faf8;
 }
 
 header {
   background-color: #1f2937;
 }
+.headertop {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 220px 90px;
+}
 
 .logo {
-  color: #f9faf8;
   font-size: 24px;
 }
 ul {
   list-style-type: none;
+  display: flex;
+  column-gap: 80px;
+  align-items: end;
 }
 
 a {
@@ -30,16 +38,36 @@ a:hover {
   cursor: pointer;
 }
 
+.headerbody {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 220px 90px;
+}
+.hbleft {
+  width: 100%;
+  text-wrap: wrap;
+  width: 550px;
+}
+
 .htlinks {
   font-size: 18px;
-  color: #e5e7eb;
 }
+
 .maintitle {
   font-size: 48px;
   font-weight: 900;
-  color: #f9faf8;
 }
+.hbsignup {
+  padding: 2px 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: #3882f6;
+  color: #f9faf8;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
 .hbrimg {
-  height: 150px;
-  width: 250px;
+  height: 217px;
+  width: 560px;
 }
