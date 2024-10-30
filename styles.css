@@ -5,6 +5,7 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
 /*Header layout*/
 header {
   background-color: #1f2937;
@@ -107,7 +108,7 @@ a:hover {
 
 .card:hover {
   cursor: pointer;
-  box-shadow: 4px 5px 10px #080846;
+  box-shadow: 2px 5px 7px 8px #080846;
 }
 
 .card p {
@@ -175,4 +176,13 @@ a:hover {
 }
 .actionbtn:hover {
   cursor: pointer;
+}
+
+footer {
+  height: 50px;
+  background-color: #1f2937;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
