@@ -146,3 +146,22 @@ a:hover {
   display: flex;
   justify-content: end;
 }
+
+.sectionfour {
+  height: 250px;
+  color: #e5e7eb;
+}
+
+.calltoaction {
+  max-width: 650px;
+  border-radius: 8px;
+  background-color: #3882f6;
+}
+.actionbtn {
+  color: #e5e7eb;
+  font-weight: 900;
+  background-color: #3882f6;
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 3px;
+  padding: 4px 4px;
+}
