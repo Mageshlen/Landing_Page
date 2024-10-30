@@ -42,6 +42,9 @@ a:hover {
   padding: 0px 220px 90px;
 }
 .hbleft {
+  display: flex;
+  flex-direction: column;
+
   width: 100%;
   text-wrap: wrap;
   width: 550px;
@@ -54,6 +57,7 @@ a:hover {
 .maintitle {
   font-size: 48px;
   font-weight: 900;
+  padding-bottom: 5px;
 }
 .hbsignup {
   padding: 2px 15px;
@@ -63,23 +67,50 @@ a:hover {
   color: #f9faf8;
   margin-top: 7px;
   font-weight: 600;
+  max-width: 100px;
 }
-
+.hbsignup:hover {
+  cursor: pointer;
+}
 .hbrimg {
   height: 217px;
   width: 560px;
 }
 /*SectionTwo cardswith text starts here*/
 .sectiontwo {
+  padding-top: 10px;
 }
 
 .sectitle {
+  padding-bottom: 20px;
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.card {
+  max-width: 150px;
+  border-radius: 15px;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 4px 5px 10px #080846;
+}
+
+.card p {
+  padding-top: 5px;
+  text-align: center;
 }
 
 .cards :nth-child(2) {
